@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// 232323232
 /* P(x) = x^4 + 6x^2 + 6 */
 /* degree:
  * coefficient: */
