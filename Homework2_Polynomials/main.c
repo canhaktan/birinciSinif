@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// 25/11/2022
 
 void printPolynomial(double coefficients[], int degrees[],int z){
     while (z==1) {
