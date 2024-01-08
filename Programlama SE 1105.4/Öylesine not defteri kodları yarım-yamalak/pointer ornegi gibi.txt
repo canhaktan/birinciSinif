@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+void summinmaxave (int*max,int*min,int dizi[],double*ave,double*sum) {
+    int mini = dizi[0];
+    int maxi = dizi[4];
+    double summy = 0;
+    for (int i = 0; i < 5 ; ++i) {
+        summy = summy + dizi[i];
+        if (mini > dizi[i]) {
+            mini = dizi[i];
+        }
+        if (maxi < dizi[i]){
+            maxi = dizi[i];
+        }
+    }
+    *ave = summy / 5;
+    *max = maxi;
+    *min = mini;
+    *sum = summy;
+}
+int main() {
+    int Arr[5] = {13,5,9,2,6};
+    int max,min;
+    double ave, sum = 0;
+    summinmaxave(&max,&min,Arr,&ave,&sum);
+    printf("max = %d\n",max);
+    printf("min = %d\n",min);
+    printf("ave = %lf\n",ave);
+    printf("sum = %lf\n",sum);
+    return 0;
+}

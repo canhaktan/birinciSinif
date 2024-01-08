@@ -1,0 +1,38 @@
+void sortFrame(int matrix[][10]) {
+    //amacim 1D array'e 2D array elemanlarini depolamak//
+int temp;
+int frame_of_matrix1D[36];
+    for (int i = 0; i < 10; ++i) {
+        frame_of_matrix1D[i] = matrix[0][i];
+    }
+    for (int i = 0; i < 9; ++i) {
+        frame_of_matrix1D[10+i] = matrix[i+1][9];
+    }
+    for (int i = 0; i < 9; ++i) {
+        frame_of_matrix1D[19+i] = matrix[9][8-i];
+    }
+    for (int i = 0; i < 8; ++i) {
+        frame_of_matrix1D[28+i] = matrix[8-i][0];
+    }
+    for (int i = 0; i < 36-1; ++i) {
+        for (int j = 0; j < 36-1-i; ++j) {
+            if (frame_of_matrix1D[i] > frame_of_matrix1D[i+1]) {
+                temp = frame_of_matrix1D[i];
+                frame_of_matrix1D[i] = frame_of_matrix1D[i+1];
+                frame_of_matrix1D[i+1] = temp;
+            }
+        }
+    }
+    for (int i = 0; i < 10; ++i) {
+        matrix[0][i] = frame_of_matrix1D[i];
+    }
+    for (int i = 0; i < 9; ++i) {
+        matrix[i+1][9] = frame_of_matrix1D[10+i];
+    }
+    for (int i = 0; i < 9; ++i) {
+        matrix[9][8-i] = frame_of_matrix1D[19+i];
+    }
+    for (int i = 0; i < 8; ++i) {
+        matrix[8-i][0] = frame_of_matrix1D[28+i];
+    }
+}

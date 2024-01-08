@@ -1,0 +1,20 @@
+void readMatrix(int matrix[][10]) {
+    for (int i = 0; i < 10; ++i) {
+        for (int j = 0; j < 10; ++j) {
+            matrix[i][j] = rand() % 10;
+        }
+    }
+}
+int main() {
+    int matrix[10][10];
+    srand(time(NULL));
+    readMatrix(matrix);
+    printf("Print matrix:\n");
+    printMatrix(matrix);
+    rotate(matrix);
+    printMatrix(matrix);
+    printf("Sorting 4th and 7th rows matrix:\n");
+    sortRow(matrix,3);
+    sortRow(matrix,6);
+    printMatrix(matrix);
+    return 0;
