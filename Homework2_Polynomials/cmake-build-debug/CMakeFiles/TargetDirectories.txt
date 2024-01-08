@@ -1,0 +1,3 @@
+C:/Users/canha/CLionProjects/birinciSinif_ilkDonemProjelerim/untitled23/cmake-build-debug/CMakeFiles/untitled23.dir
+C:/Users/canha/CLionProjects/birinciSinif_ilkDonemProjelerim/untitled23/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/canha/CLionProjects/birinciSinif_ilkDonemProjelerim/untitled23/cmake-build-debug/CMakeFiles/rebuild_cache.dir
