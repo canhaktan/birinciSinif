@@ -1,3 +1,0 @@
-C:/Users/canha/CLionProjects/birinciSinif_ilkDonemProjelerim/ODEV/cmake-build-debug/CMakeFiles/ODEV.dir
-C:/Users/canha/CLionProjects/birinciSinif_ilkDonemProjelerim/ODEV/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/canha/CLionProjects/birinciSinif_ilkDonemProjelerim/ODEV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
