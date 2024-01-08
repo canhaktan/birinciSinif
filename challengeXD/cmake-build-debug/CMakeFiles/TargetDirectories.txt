@@ -1,3 +1,0 @@
-C:/Users/canha/CLionProjects/challengeXD/cmake-build-debug/CMakeFiles/challengeXD.dir
-C:/Users/canha/CLionProjects/challengeXD/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/canha/CLionProjects/challengeXD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
